@@ -14,6 +14,8 @@ language modeling in this repo, can be downloaded directly from [here](https://d
 2. [Dravidian Codemix HASOC @ FIRE 2020](https://sites.google.com/view/dravidian-codemix-fire2020/overview)
 
 3. [Dravidian Codemix Sentiment Analysis @ FIRE 2020](https://dravidian-codemix.github.io/2020/)
+4. [Dravidian Codemix Offensive Language Identification @ EACL 2021] (https://competitions.codalab.org/competitions/27654)
+5. [Dravidian Codemix Hope Speech Detection @ EACL 2021] (https://competitions.codalab.org/competitions/27653)
 
 ## Results
 
@@ -23,6 +25,8 @@ language modeling in this repo, can be downloaded directly from [here](https://d
 | Architecture/Dataset | Tamil Wikipedia Articles | Vocab size |
 |:--------:|:----:|:----:|
 |   ULMFiT  |  37.50  |  8000  |
+|   RoBERTa  |  8.4  |  10000  |
+
 
 ### Classification Metrics
 
@@ -32,6 +36,8 @@ language modeling in this repo, can be downloaded directly from [here](https://d
 |:--------:|:----:|:----:|:----:|:----:|
 | Dravidian Codemix HASOC @ FIRE 2020 |  0.88  |  0.88  |  0.88  | [Link](https://github.com/goru001/nlp-for-tanglish/blob/master/classification/classification_model_hasoc.ipynb) |
 | Dravidian Codemix Sentiment Analysis @ FIRE 2020 |  0.62  |  0.65 | 0.69 | [Link](https://github.com/goru001/nlp-for-tanglish/blob/master/classification/classification_model_dc_fire.ipynb) |
+| Dravidian Codemix Offensive Language Identification @ EACL 2021 |  0.75  |  0.74 | 0.78 | |
+| Dravidian Codemix Hope Speech Detection @ EACL 2021 |  0.61  |  0.62 | 0.62 | |
 
 ### Visualizations
  
